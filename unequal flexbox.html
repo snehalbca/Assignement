@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>CSS Template</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+section{
+  margin-top: 70px;
+    margin-left:70px;
+  width:90% ;
+  height:300px ;
+}
+
+
+.header {
+  margin: 10px;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.column.side {
+  margin: 10px;
+  height: 400px;
+   
+   flex: 1;
+}
+
+.column.middle {
+  margin: 10px;
+  height: 400px;
+  flex: 4;
+}
+
+
+.footer {
+  margin: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+
+}
+</style>
+</head>
+<body>
+<section>
+
+
+<div class="header">
+  <h2></h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#f1f1f1;"></div>
+  <div class="column middle" style="background-color:#f1f1f1;"></div>
+  <div class="column side" style="background-color:#f1f1f1;"></div>
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+</section>
+</body>
+</html>
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+section{
+  margin: 60px;
+  width: 90%;
+}
+.header {
+
+  
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+
+} 
+
+.left,
+.middle,
+.right {
+ 
+  padding: 10px;
+  height: 400px;
+  
+}
+
+
+.left {
+
+  grid-area: left;
+  
+}
+
+
+.middle {
+  
+  grid-area: middle;
+   
+}
+
+
+.right {
+  
+  grid-area: right;
+  
+  
+}
+
+
+.footer {
+  
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  height: 70px;
+}
+
+
+
+  }
+}
+</style>
+</head>
+<body>
+<section>
+
+
+<div class="grid-container">
+  <div class="header">
+    <h2></h2>
+  </div>
+  
+  <div class="left" style="background-color:#f1f1f1;"></div>
+  <div class="middle" style="background-color:#f1f1f1;"></div>  
+  <div class="right" style="background-color:#f1f1f1;"></div>
+  
+  <div class="footer">
+  <p></p>
+  </div>
+</div>
+</section>
+</body>
+</html>
+
+
